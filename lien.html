@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Site d'apprentissage du HTML 5 et du CSS 3 - Colombbus Suresnes 2021">	
+		
+
+		<meta name="keywords" content="Premier site, Colombbus, Suresnes, l'agence Suresnes, lagencesuresnes, HTML 5, CSS 3, Fatima Chine, integrateur developpeur web">
+
+		<!-- l'auteur de la page -->	
+		
+		
+		<meta name="author" content="Fatima Chine">
+
+        <!-- nous chargons en CDN (content delivery network) la typo font awesome,la version gratuite, qui comporte 1600 icônes -->
+     <!-- Font Awesome Typos -->
+		 <script src="https://kit.fontawesome.com/30d9cb2bf3.js" crossorigin="anonymous"></script>
+
+		<title>Mon premier site en HTML 5 et en CSS 3 - Lien</title>
+		<!-- à compléter, feuille de style CSS,typo etc. -->
+
+		</head>	
+
+		<body>
+	
+		<!-- En-tête correspond à la balise header -->
+		<!-- Bien indenté son code c'est s'assurer de la bonne imbrication des balises et augmenter la lisibilité du code-->
+	
+		<header>
+
+		 <div id="logo">
+			<img src="img/logo.png" alt="logo html 5 et css 3">	
+		 </div>						
+		 <h1> Lien</h1>
+
+		</header>
+
+		<!-- fin de header-->
+		
+		<nav>
+			<!-- zone du menu avec des liens simples oour faire notre menu -->
+			<div>
+			<a href="index.html " title="HTML5 CSS 3 - Accueil">Accueil</a>
+				<a href="texte.html" title="HTML 5 CSS 3 -Texte">Texte</a>
+				<a href="selecteur.html" title="HTML 5 CSS 3 -Sélecteur">Sélecteur</a>
+				<a href="image.html" title="HTML 5 CSS 3 -Image">Image</a>
+				<a href="position.html" title="HTML 5 CSS 3 -Position">Position</a>
+				<a href="zoning.html" title="HTML 5 CSS 3 -Zoning">Zoning</a>
+				<a href="tableau.html" title="HTML 5 CSS 3 -Tableau">Tableau</a>
+				<a href="liste.html" title="HTML 5 CSS 3- Liste">Liste</a>
+					<a href="lien.html" title="HTML 5 CSS 3 -Lien">Lien</a>
+					<a href="formulaire.html" title="HTML 5 CSS 3 -Formulaire">Formulaire</a>
+					<a href="multimedia.html" title="HTML 5 CSS 3 -Multimédia">Multimédia</a>
+					<a href="animation.html" title="HTML 5 CSS 3 -Animation">Animation</a>
+					<a href="récapitulatif.html" title="HTML 5 CSS 3 -Récapitulatif">Récapitulatif</a>
+					<!-- 2/2nd type de lien: Les liens d'une page à une autre page dans le même site -->
+				</div>
+		</nav>
+		<!--fin navigation-->
+
+		<main>
+			<h2> Lien<i class="fas fa-link"></i></h2>
+			<div>
+				<!-- a*3  -->
+		<!-- 1/1er type de lien: hyper-texte une ancre a /Le lien vers l'ancre attribut ex."#liens"  b /l'ancre du lien id="liens"-->
+				<a href="#liens">Les liens</a>
+				<a href="#menu">Un menu</a>
+				<a href="#menu-deroulant">Un menu déroulant</a>
+			</div>
+			<hr>
+			
+			<section id="liens">
+			<h3>Les liens</h3>
+			<!-- 3/3e type de lien:Les liens vers des sites externes -->
+		<a href="https://codepen.io/" target="_blank">CodePen pour s'entraîner au code</a>
+		 <!-- un lien vers le site du Monde avec target_blank pour ouvrir dans un nouvel onglet  -->
+		<a href="https://www.lemonde.fr/" target="_blank">Le Monde</a>
+		   <!-- un lien pour télécharger un fichier  -->
+		<a href="docs/planning_suresnes_version_1.pdf">Télécharger le planning du chantier de Suresnes</a>
+        <!-- sur le lien une fonction JS dans l'attribut onclick  -->
+		<a href="#" onclick ="window.print()">Imprimer la page</a>
+		</section>
+
+		<section id="menu">
+				        <nav>
+					          <!-- ul>li*4>a  -->
+					          <ul>
+					          <!-- on trouve fréquemment, en code, des navigations faites avec une ul,une liste non-ordonnées  -->
+						          <li><a href="#">Accueil</a></li>
+						          <li><a href="#">Parcours</a></li>
+						          <li><a href="#">Réalisations</a></li>
+						          <li><a href="#">Contact</a></li>
+					            </ul>
+			       		</nav>
+		</section>
+
+		<section id="menu-deroulant">
+						<ul>
+                        <!-- ul ne peut pas être l'enfant de ul  -->
+						<li>	<a href="#" title="Accueil">Accueil</a></li>
+
+						<li>
+								<a href="#" title="Formations">Formations</a>
+						<ul>
+										<li><a href="#" title="Etudiants">Etudiants</a></li>
+										<li><a href="#" title="Emploi du temps">Emploi du temps</a></li>
+										<li><a href="#" title="Recherche d'emploi">Recherche d'emploi</a></li>
+										<li><a href="#" title="Documents">Documents</a></li>
+									</ul>
+								</li>
+
+								<li><a href="#" title="Informations">Informations</a></li>
+								<li>
+								<a href="#" title="Cours">Cours</a>
+									<ul>
+										<li><a href="#" title="Internet">Internet</a></li>
+										<li><a href="#" title="HTML/CSS">HTML/CSS</a></li>
+										<li><a href="#" title="CMS">CMS</a></li>
+										<li><a href="#" title="Stats">Stats</a></li>
+										<li><a href="#" title="Réseaux sociaux">Réseaux sociaux</a></li>
+										<li><a href="#" title="Référencement">Référencement</a></li>
+										<li><a href="#" title="Marketing">Marketing</a></li>
+										<li><a href="#" title="Cahier des charges">Cahier des charges</a></li>
+										<li><a href="#" title="Photoshop">Photoshop</a></li>
+									</ul>
+								</li>
+								<li><a href="#" title="Mon CV">Mon CV</a></li>
+							</ul>
+			
+		</section>
+	</main>
+		<!-- fin main-->
+	<!--pied de page-->
+		<footer>
+				<!-- pour les caractères spéciaux nous avons besoin de les coder cf.https://dev.w3.org/html5/html-author/charref ces caractères sont des "HTML entities" -->
+			<p style="color: #F08080 ">&copy; L'agence Suresnes -  &Fscr; &hearts;  &Cfr; </p>
+		</footer>
+		<!--fin de footer-->
+
+	</body>
+
+
+</html>						
