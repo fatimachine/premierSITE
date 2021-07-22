@@ -7,23 +7,22 @@
     <title>Cascading Style Sheets</title>
 
     <!-- lien externe vers la feuille de style 01_style.css -->
-
-    <link rel="stylesheet" href="01_style.css">
+     <link rel="stylesheet" href="css/01_style.css">
+        <!-- ce lien peut être commun à toutes les pages de mon site et me permet de centraliser les styles  -->
 
     <!-- style dans l'en-tête  -->
+     <!-- si j'ai du style dans l'en-tête c'est que sur cette page j'ai besoin des styles propres à cette page  -->
     <style>
+        
          /* élément {propriété: valeur;} */
-            body {
-            background-color: lightpink;    
-            }
-
+    
             ul {
              background-color: mistyrose;
             }
 
             li {
              background-color: #fff;
-             color:deeppink;
+             color:mistyrose;
             }
             a {
                 background-color:#fff;
@@ -37,12 +36,18 @@
     <p>Il existe 3 moyens de faire du style à l'aide du CSS :</p>
     <!-- ul>li*3{$/} -->
    <ul>
-       <li style="color:hotpink">1/Le style en ligne</li>
+        <!-- et ce  style au plus proche de l'élément sera une exception -->
+       <li style="color:mistyrose">1/Le style en ligne</li>
        <li>2/Le style dans l'en-tête(dans la balise <code>&lt;head&gt;</code>)</li>
        <li>3/Le style dans une feuille de style externe.</li>
    </ul>
    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores at ad, aliquid cum eveniet minima maiores debitis eaque magnam rem inventore vero reprehenderit nihil, facere omnis sequi placeat hic?<a href="#" title="Facilis" target=" _blank">Facilis</a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iste ratione cupiditate quos deserunt, vitae quia in vel tenetur incidunt itaque recusandae quidem animi possimus aliquam laborum temporibus aspernatur quae?</p>
    <p>Lien vers <a href="https:/swaggicita.tumblr.com/" target=" _blank">swaggicita</a></p>
+
+
+   <p>1/COURRIER NEW: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quas nam nemo placeat, in unde. Illum harum rem repellat excepturi officiis repudiandae molestias reprehenderit inventore eveniet, totam vero labore perferendis?</p>
+
+   <p id="times">2/ TIMES NEW ROMAN: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, eum sunt laborum qui incidunt debitis error temporibus corrupti corporis nihil, commodi exercitationem, esse ea officia cupiditate pariatur maxime placeat deleniti.</p>
    
 </body>
 </html>
