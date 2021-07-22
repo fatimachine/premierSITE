@@ -6,23 +6,40 @@ color: #fff;
  /* police de caractère, ici des typos sans empattements  */
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
+
+ h1{
+      /* taille de typo, en px en unités absolues */
+     font-size: 50px;
+     text-transform:lowercase;
+ }
+
+ h2{
+     font-size: 40px;
+     text-transform:uppercase ;
+ }
+ h3{
+     font-size: 20px;
+ }
+
  h1,h2,h3{
     text-align: center;
-    color: mistyrose;
+    color: #fff;
  }
 
  p {
    background-color:powderblue;
    }
+
  /* pour cibler l'élément qui a l'id travail j'ecris #travail */
  /* pour déclarer un id on précède le nom du caractère # */
    #travail{
        background-color:thistle;
        color: white;
    }
+
    /* pour cibler la ou les éléments qui ont la class "vacances" j'écris .vacances */
    /* pour déclarer une classe on précède le nom de la classe d'un point  */
  .vacances{
      font-style: italic;
-     color: mistyrose;
+     color: #fff;
  }

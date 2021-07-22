@@ -1,0 +1,64 @@
+/* Les styles pour le premierSITE Fatima CHINE chantier Suresnes 2k21-2k22 */
+
+
+/* les typos google font utilisées dans le site */
+/* Anton, Lemonada,oswald,parisienne */
+
+
+/* font-family: 'Anton', sans-serif;
+
+font-family: 'Lemonada', cursive;
+
+font-family: 'Oswald', sans-serif;
+
+font-family: 'Parisienne', cursive; */
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color:lightblue;
+}
+
+h1{
+    font-family:'Anton', sans-serif; ;
+    /* taille de typo */
+    font-size: 45px;
+    /* espacement entre les lettres  */
+    letter-spacing: 1px;
+    /* couleur réf.héxadécimale  */
+    color: #2980b9;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    color: #2c3e50;
+    /* épaisseur des caractères  */
+    font-weight: bolder;
+     /* ombre portée une propriété qui a besoin de 4 valeurs  */
+    text-shadow: 1px 1px 2px #aaa;
+
+}
+h2 i{
+    font-size: 150%;
+}
+
+ /* taille de l'icone dans le h2  */
+  /* i enfant de h2;l'icone sera 150% plus grande que la taille d'origine */
+
+blockquote{
+
+    font-family: 'Lemonada', cursive;
+}
+
+h3{
+    font-size: 22px;
+    color:#2c3e50;
+    text-shadow: 1px 1px 2px #aaa ;
+}
+
+h4{
+
+    text-align: center;
+
+}
