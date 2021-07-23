@@ -1,0 +1,25 @@
+body{
+            /* retrouver une image dans un sous-dossier ../../etc */
+    background-color:mistyrose;
+}
+
+nav{
+    background-color: #fff;
+}
+
+main{
+    background-color: #F5C6C9;
+}
+
+footer{
+    background-color: #F5C6C9;
+}
+h2{
+    background-color: #FFDACF;
+}
+article{
+    background-color: #F5C6C9;
+}
+aside{
+    background-color: mistyrose;
+}

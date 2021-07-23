@@ -16,6 +16,9 @@ font-family: 'Parisienne', cursive; */
 body {
     font-family: 'Oswald', sans-serif;
     background-color:lightblue;
+    /* image de fond  */ 
+    /* chemin depuis le fichier style.css; on sort du dossier css puis on rentre dna sle dossier img  */
+    background-image: url('../img/concrete-texture.png');
 }
 
 h1{
@@ -49,6 +52,12 @@ h2 i{
 blockquote{
 
     font-family: 'Lemonada', cursive;
+}
+
+blockquote i {
+    font-size: 350%;
+    color: mistyrose;
+    vertical-align: middle;
 }
 
 h3{
