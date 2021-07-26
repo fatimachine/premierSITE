@@ -1,3 +1,34 @@
+@charset "UTF-8";
+
+/* reset simple  */
+/* l'étoile signifie tout all */
+*{
+    box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* fin du reset simple */
+
+/* On peut utiliser le reset de eric meyer qui est plus détaillée
+meyerweb */
 /* Les styles pour le premierSITE Fatima CHINE chantier Suresnes 2k21-2k22 */
 
 
@@ -21,7 +52,7 @@ body {
     background-image: url('../img/concrete-texture.png');
 }
 
-h1{
+h1 {
     font-family:'Anton', sans-serif; ;
     /* taille de typo */
     font-size: 45px;
@@ -32,7 +63,7 @@ h1{
     text-align: center;
 }
 
-h2{
+h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 35px;
     color: #2c3e50;
@@ -42,14 +73,14 @@ h2{
     text-shadow: 1px 1px 2px #aaa;
 
 }
-h2 i{
+h2 i {
     font-size: 150%;
 }
 
  /* taille de l'icone dans le h2  */
   /* i enfant de h2;l'icone sera 150% plus grande que la taille d'origine */
 
-blockquote{
+blockquote {
 
     font-family: 'Lemonada', cursive;
 }
@@ -60,14 +91,14 @@ blockquote i {
     vertical-align: middle;
 }
 
-h3{
+h3 {
     font-size: 22px;
     color:#2c3e50;
     text-shadow: 1px 1px 2px #aaa ;
 }
 
-h4{
+h4 {
 
-    text-align: center;
+    /* text-align: center; */
 
 }

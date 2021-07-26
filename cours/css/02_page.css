@@ -1,25 +1,95 @@
-body{
+@charset "UTF-8";
+/* reset simple  */
+/* l'étoile signifie tout all */
+*{
+    box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* fin reset simple */
+body {
             /* retrouver une image dans un sous-dossier ../../etc */
+            /* background-image: url('../../img/concrete-texture.png'); */
     background-color:mistyrose;
 }
 
-nav{
+header {
+    background-color: #F5C6C9;
+    color: #fff;
+    font-size: 200%;
+}
+nav {
+    background-color: #F5C6C9;
+}
+
+main {
+    background-color: mistyrose;
+    width: 1200px;
+    margin: 0 auto;
+    height: 600px;
+}
+
+footer {
+    background-color: #F5C6C9;
+    color: palevioletred;
+
+}
+
+h1 {
+    background-color:#F5C6C9;
+    text-align: center;
+}
+
+h2 {
     background-color: #fff;
 }
 
-main{
-    background-color: #F5C6C9;
+article {
+    width: 800px;
+    float: left;
+}
+aside {
+    width: 400px;
+    float: left;
 }
 
-footer{
-    background-color: #F5C6C9;
+.clear {
+    clear: both;
 }
-h2{
-    background-color: #FFDACF;
+
+#menu-haut {
+    width: 1200px;
+    margin: 0 auto;
 }
-article{
-    background-color: #F5C6C9;
+
+#menu-haut ul {
+    background-color:palevioletred;
+    width: 800px;
+    float: left;
 }
-aside{
-    background-color: mistyrose;
+
+form {
+    background-color:palevioletred;
+    width: 400px;
+    float: left;
 }
+
+
