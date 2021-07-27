@@ -186,7 +186,7 @@ nav a:hover {
 /* fin nav */
 
 main {
-    width: 1000px;
+    width: 1100px;
     margin: 0 auto;
 
     background-color: rgba(178, 178, 178, 0.178);
@@ -200,6 +200,27 @@ aside {
     background-color: #a6d6c3;
 }
 
+#accueil {
+    width: 70%;
+    float: left;
+
+}
+
+section {
+    margin-top: 50px;
+    padding: 20px;
+
+}
+
+footer {
+    height: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #2980b9;
+
+    text-align: center;
+    color: palevioletred;
+}
 
         /* la classe clear pour rétablir le flux */
 .clear {
