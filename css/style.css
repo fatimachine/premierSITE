@@ -46,7 +46,6 @@ font-family: 'Parisienne', cursive; */
 
 body {
     font-family: 'Oswald', sans-serif;
-    background-color:lightblue;
     /* image de fond  */ 
     /* chemin depuis le fichier style.css; on sort du dossier css puis on rentre dna sle dossier img  */
     background-image: url('../img/concrete-texture.png');
@@ -95,6 +94,7 @@ h4 {
 blockquote {
 
     font-family: 'Lemonada', cursive;
+    font-size: 120%;
 }
 
 
@@ -112,21 +112,20 @@ header {
         /* la propriété float sert à casser le flux du HTML */
 
 #logo {
+     /* 1 la boîte */
     width: 25%;
     float: left;
-    padding: 15px;
-
+    padding: 15px; /* marge intérieure de lélément padding=rembourrage */
     background-color: #719bc5;
-
     text-align: center;
     
 }
 
 #slogan {
     width: 50%;
-    float: left;
-    /* marge intérieure de lélément padding=rembourrage */
-    padding-top: 50px;     
+    float: left; /*  2 marge intérieure de lélément padding=rembourrage */
+    padding-top: 50px;  
+    /* 3 aspect de la boîte     */
     background-color:#719bc5;
 }
 
@@ -137,11 +136,9 @@ header {
     background-color:#719bc5;
 }
 
-#social i {
-   /* je change la nature de  l'élément i qui est inline, en un élément de type block   */
-    display: block;
+#social i {  /* ici on cible un i un élément dont le parent à l'id social */
+    display: block;/* je change la nature de  l'élément i qui est inline, en un élément de type block   */
     padding:15px 30px 0 0;
-
     font-size: 30px;
     text-align: right;
 }
@@ -150,6 +147,59 @@ header a {
     text-decoration: none;
     color: #10828c;
 }
+
+  /* fin header  */
+
+/* la navigation */
+nav {
+    height: 70px;
+    padding: 15px;
+
+    background-color: #2980b9;
+    border-bottom: 8px solid #6acafc;
+
+    text-align: center;
+}
+
+nav a {
+    margin: 10px;
+    padding: 2px 10px;
+    background-color: #6acafc;
+    border-bottom: 2px solid #fff;   /* une bordure en bas */
+    border-radius: 10px 0;
+    /* arrondi des angles des bordures */
+
+    font-family: 'Parisienne', cursive;
+    color: #2c3e50;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+    /* transition sur le nav a marche avec le :hover  */ /* a hover nous permet la survole du lien tout en le colorant */
+}
+
+/* a hover une pseudo-class un effet au survol du curseur */
+nav a:hover {
+    background-color: #a6d6c3;
+    color: #fff;
+}
+
+/* fin nav */
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+
+    background-color: rgba(178, 178, 178, 0.178);
+    /* une couleur en rgba: red green blue et un "canal alpha" */
+}
+
+aside {
+    height: 250px;
+    width: 30%;
+    float: left;
+    background-color: #a6d6c3;
+}
+
         /* la classe clear pour rétablir le flux */
 .clear {
     clear: both;

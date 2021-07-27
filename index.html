@@ -38,31 +38,29 @@
 		<!-- En-tête correspond à la balise header -->
 		<!-- Bien indenté son code c'est s'assurer de la bonne imbrication des balises et augmenter la lisibilité du code-->
 		
-		<header>
+		<header>			
+			<div id="logo">
+				<!-- le bouton et le lien vers l'ancre #logo -->
+				<a href="#logo">
+					<button type="button"><i class="fas fa-arrow-circle-up"></i></button>
+				</a>
+				<img src="img/logo.png" alt="logo html 5 et css 3">
+			</div>
 
-		 <div id="logo">
-			 		<!-- le bouton et le lien vers l'ancre #logo -->
-			<a href="#logo">
-				<button type="button"><i class="fas fa-arrow-circle-up"></i></button>
-			</a>
-			<img src="img/logo.png" alt="logo html 5 et css 3">	
-		 </div>	
-		 <div id="slogan">		
-			 <a href="index.html">	
-		 <h1 style="color:mistyrose"> Mon premier site en HTML 5 et en CSS 3</h1>
-		</a>		
-		</div>
-
-		<div id="social">
-			<a href="https://www.instagram.com/lagencesuresnes/" target="_blank"><i class="fab fa-instagram"></i></a>
-			<a href="" target="_blank"><i class="fab fa-facebook"></i></a>
-		</div>
-		<div class="clear"></div>
-
+			<div id="slogan">
+				<a href="index.html">
+					<h1>Mon premier site en HTML 5 et CSS 3</h1>
+				</a>
+			</div>
+			
+			<div id="social">
+				<a href="https://www.instagram.com/lagencesuresnes/" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="" target="_blank"><i class="fab fa-facebook-square"></i></a>
+			</div>
+			<div class="clear"></div>
 		</header>
+		<!-- fin header-->
 
-		<!-- fin de header-->
-		
 	
 		<nav>
 			<div>
@@ -74,19 +72,20 @@
 				<a href="zoning.html" title="HTML 5 CSS 3 -Zoning">Zoning</a>
 				<a href="tableau.html" title="HTML 5 CSS 3 -Tableau">Tableau</a>
 				<a href="liste.html" title="HTML 5 CSS 3- Liste">Liste</a>
-					<a href="lien.html" title="HTML 5 CSS 3 -Lien">Lien</a>
-					<a href="formulaire.html" title="HTML 5 CSS 3 -Formulaire">Formulaire</a>
-					<a href="multimedia.html" title="HTML 5 CSS 3 -Multimédia">Multimédia</a>
-					<a href="animation.html" title="HTML 5 CSS 3 -Animation">Animation</a>
-					<a href="récapitulatif.html" title="HTML 5 CSS 3 -Récapitulatif">Récapitulatif</a>
+				<a href="lien.html" title="HTML 5 CSS 3 -Lien">Lien</a>
+				<a href="formulaire.html" title="HTML 5 CSS 3 -Formulaire">Formulaire</a>
+				<a href="multimedia.html" title="HTML 5 CSS 3 -Multimédia">Multimédia</a>
+				<a href="animation.html" title="HTML 5 CSS 3 -Animation">Animation</a>
+				<a href="récapitulatif.html" title="HTML 5 CSS 3 -Récapitulatif">Récapitulatif</a>
 			</div>
 		</nav>
 		<!--fin navigation-->
 
 		<main>
+			<aside>
 			<h2>La page d'accueil - <i class="fab fa-fort-awesome"></i></h2>
 			<!-- aside : la barre latérale de la section principale-->
-			<aside>
+			
 
 			<p>ici, la balise <code>&lt;aside&gt;</code> aside mais il n'y a que ce paragraphe</p>
 
@@ -108,16 +107,10 @@
 					<h6>Ici un titre de niveau 6 </h6>
 				</div>
 
+
 				<!-- span: zone supplémentaire de contenu-->
-				
+				<h2>Ici un titre de <span>niveau 2 dans span</span></h2>
 
-				<span>
-
-					<h2>Ici un titre de niveau 2 dans span</h2>
-
-				</span> 
-
-				
 			<!-- article: zone supplémentaire de contenu-->
 
 			<article>
@@ -136,7 +129,7 @@
 		<!--pied de page-->
 		<footer>
 				<!-- pour les caractères spéciaux nous avons besoin de les coder cf.https://dev.w3.org/html5/html-author/charref ces caractères sont des "HTML entities" -->
-			<p style="color:mistyrose">&copy; L'agence Suresnes 2021 -  &Fscr; &hearts;  &Cfr; </p>
+			<p style="color:palevioletred">&copy; L'agence Suresnes 2021 -  &Fscr; &hearts;  &Cfr; </p>
 		</footer>
 		<!--fin de footer-->
 	
