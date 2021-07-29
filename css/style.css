@@ -90,11 +90,14 @@ h4 {
     text-align: center;
 
 }
+p {
+    padding: 50px;
+}
 
 blockquote {
 
     font-family: 'Lemonada', cursive;
-    font-size: 120%;
+    font-size: 80%;
 }
 
 
@@ -182,6 +185,11 @@ nav a:hover {
     background-color: #a6d6c3;
     color: #fff;
 }
+.active {
+    background-color:#a6d6c3;
+    color: orangered;
+
+}
 
 /* fin nav */
 
@@ -221,6 +229,98 @@ footer {
     text-align: center;
     color: palevioletred;
 }
+
+ /* fin des zones principales de la page  */
+ /* le retour en haut de page  */
+ button {
+     position: fixed;
+     /* le bouton est fixée à 40px */
+     bottom: 40px;
+     right: 20px;
+     border: none;
+     /* le bouton n'as pas de bordure */
+     /* il est transparent */
+     background: transparent;
+     font-size: 350%;
+     color: #2c3e50;
+ }
+
+ /* La page sélecteur */
+
+ .selection p {
+     margin-bottom: 5px;
+     color: palevioletred;
+     background-color: orchid;
+ }
+
+ .selection p:first-of-type { /* 1 er enfant du type désigné */
+    background: lightpink;
+ }
+
+ .selection p:last-of-type {
+     background: #fff;
+     width: 300px;
+ }
+ .selection p:nth-of-type(4),p:nth-of-type(6) { /* le enième élément du type désigné */
+     background: coral;
+     color: crimson;
+ }
+
+ /* .selection *:last-child {/* le symbole étoile signifie tout "all"  et nous ciblons ici tous les derniers enfants des éléments qui sont dans la section */
+    /* font-size: 50px;
+
+ } */ */
+
+
+.selection .zone-a {
+    color: purple;
+}
+.selection .zone-b {
+    color: royalblue;
+}
+.selection div:not(.zone-b){
+    font-size: 68px;
+    background-color: #fff;
+}
+
+.selection .zone-b .texte-orange {
+    font-size: 35px;
+    color: orangered;
+}
+.selection #zone-d span {
+    color: palegreen;
+    font-size: 30px;
+    font-style: italic;
+}
+
+/* pages des images */
+.img-fond {
+    margin-bottom: 20px;
+    background: black url('../img/fond.jpg') no-repeat;
+    background-size: cover;
+}
+
+.img-fond p {
+    width: 75%;
+    margin: 200px auto 250px auto;
+    padding: 20px;
+
+    background:rgba(255, 255,255, 0.60);
+    border-radius: 10px;
+    font-size: 120%;
+    
+}
+
+img[src="img/toureiffel.jpg"] { /* on ne cible que cette image on la trouve par son chemin dans le fichier html  */
+    display: block;  /* je change la nature de l'élément inline en block pour lui  */
+    padding: 20px;
+    margin: auto;
+    background-color: #fff;
+
+}
+
+
+
 
         /* la classe clear pour rétablir le flux */
 .clear {
