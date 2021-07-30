@@ -47,9 +47,16 @@ font-family: 'Parisienne', cursive; */
 body {
     font-family: 'Oswald', sans-serif;
     /* image de fond  */ 
-    /* chemin depuis le fichier style.css; on sort du dossier css puis on rentre dna sle dossier img  */
+    /* chemin depuis le fichier style.css; on sort du dossier css puis on rentre dans le dossier img  */
     background-image: url('../img/concrete-texture.png');
 }
+
+ 
+        /* la classe clear pour rétablir le flux */
+        .clear {
+            clear: both;
+        }
+
 
 h1 {
     font-family:'Anton', sans-serif; ;
@@ -91,7 +98,7 @@ h4 {
 
 }
 p {
-    padding: 50px;
+    padding: 5px;
 }
 
 blockquote {
@@ -319,10 +326,78 @@ img[src="img/toureiffel.jpg"] { /* on ne cible que cette image on la trouve par 
 
 }
 
+.au-centre {
+    text-align: center;
+}
 
+.img-golden {
+    margin: 20px;
+    border: 5px solid #fff;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    transition: 1s; /* La durée de l'animation qui ffonctionne avec le :hover des deux autres classes */
+}
 
+.img-golden:hover {
+    transition: rotate(-7deg );
+    border: 15px solid #fff;
+}
+.rotation-360:hover {
+    transform: rotate(-360deg);
 
-        /* la classe clear pour rétablir le flux */
-.clear {
-    clear: both;
+}
+ /* fin page des images  */
+
+/* page tableau */
+.tableau table, .tableau td {
+    border: 2px solid #205d67;
+}
+
+.tableau table {
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    border-collapse: collapse;
+    
+}
+.tableau td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.tableau thead {
+    background: #d0e3fa;
+    border: 5px solid #6495ed;
+    text-align: center;
+}
+
+.tableau caption {
+    height: 50px;
+    padding-left: 5px;
+
+    background: #d0e3fa;
+    border: 1px solid #6495ed;
+
+    font-size: 25px;
+    text-align: left;
+    color: #6495ed;
+}
+ /* la page des listes  */
+
+ ul.fruits {
+            /* pour voir tous les types de puces faites CTRL+ESPACE */
+    list-style:none;
+ }
+
+ ul.fruits li {
+     display: inline; /* les éléments li sont block par défaut et on change leur nature en élément inline  */
+     margin: 15px;
+ }
+ li .far {
+     font-size: 90%;
+     color: #2d5c7f;
+ }
+li .far:hover {
+    font-size: 150%;
+    color: orangered;
 }

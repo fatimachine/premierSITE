@@ -12,7 +12,7 @@
 			
 		
 
-		<title>Mon premier site en HTML 5 et en CSS 3  - Image</title>
+		<title>Mon premier site en HTML 5 et en CSS 3  - Tableau</title>
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,14 +25,14 @@
      <!-- Font Awesome Typos -->
 	 <script src="https://kit.fontawesome.com/30d9cb2bf3.js" crossorigin="anonymous"></script>
 
-		</head>	
-        <body>
+</head>	
+ <body>
 	
 	
             <!-- En-tête correspond à la balise header -->
             <!-- Bien indenté son code c'est s'assurer de la bonne imbrication des balises et augmenter la lisibilité du code-->
             
-            <header>			
+    <header>			
                 <div id="logo">
                     <!-- le bouton et le lien vers l'ancre #logo -->
                     <a href="#logo">
@@ -52,19 +52,19 @@
                     <a href="" target="_blank"><i class="fab fa-facebook-square"></i></a>
                 </div>
                 <div class="clear"></div>
-            </header>
+     </header>
             <!-- fin header-->
             
 
-            <nav>
+     <nav>
                 <div>
                     <a href="index.html " title="HTML5 CSS 3 - Accueil">Accueil</a>
                     <a href="texte.html" title="HTML 5 CSS 3 -Texte">Texte</a>
                     <a href="selecteur.html" title="HTML 5 CSS 3 -Sélecteur">Sélecteur</a>
-                    <a href="image.html" title="HTML 5 CSS 3 -Image" class="active">Image</a>
+                    <a href="image.html" title="HTML 5 CSS 3 -Image">Image</a>
                     <a href="position.html" title="HTML 5 CSS 3 -Position">Position</a>
                     <a href="zoning.html" title="HTML 5 CSS 3 -Zoning">Zoning</a>
-                    <a href="tableau.html" title="HTML 5 CSS 3 -Tableau">Tableau</a>
+                    <a href="tableau.html" title="HTML 5 CSS 3 -Tableau" class="active">Tableau</a>
                     <a href="liste.html" title="HTML 5 CSS 3- Liste">Liste</a>
                     <a href="lien.html" title="HTML 5 CSS 3 -Lien">Lien</a>
                     <a href="formulaire.html" title="HTML 5 CSS 3 -Formulaire">Formulaire</a>
@@ -72,42 +72,61 @@
                     <a href="animation.html" title="HTML 5 CSS 3 -Animation">Animation</a>
                     <a href="récapitulatif.html" title="HTML 5 CSS 3 -Récapitulatif">Récapitulatif</a>
                 </div>
-            </nav>
+     </nav>
             <!--fin navigation-->
-            <main>
-                  <!-- section 1 -->
-              <section>
-                   <h2>Les images- <i class="fas fa-image"></i></h2>
-              </section>
-                    <!-- section 2 -->
-
-              <section class="img-fond">
-                  <h3>Une image de fond en CSS - <i class="fas fa-comment-alt"></i></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat sit sequi fuga corporis necessitatibus tenetur ipsa similique, vel cum perferendis maxime corrupti provident illum temporibus qui dolor id nobis officia.
-                  Nostrum quam amet accusamus enim eligendi cum, vitae tenetur ipsum saepe ipsam nihil est esse voluptatem autem animi ipsa sit, sunt quas dicta! Veritatis, fugiat? A inventore nihil facilis dolore?
-                  Officia voluptas est, at quam itaque pariatur earum unde repudiandae dolorem nobis velit? Cumque incidunt sint repellendus magnam. Maxime veritatis exercitationem distinctio rerum doloribus architecto tempora eveniet vel, voluptas commodi!
-                  Hic dolorum dolorem quia dignissimos impedit maiores minima fugiat, provident, dolor sequi aperiam dicta deserunt. Recusandae, magni officia. Quas voluptates voluptatibus laboriosam provident ea soluta, id est sapiente ut. Provident?</p>
-              </section>
-
-                    <!-- section 3 -->
-              <section>
-                <h3>Image dans le html</h3>
-                <img src="img/toureiffel.jpg" alt="la tour eiffel" title="Une belle image de la Tour Eiffel">
-              </section>
-                  <!-- section 4 -->
-                  <section class="au-centre">
-                      <h3>Images dans le HTML avec des effets CSS</h3>
-                      <img src="img/golden_gate.jpg" alt="le golden gate bridge" class="img-golden">
-                      <img src="img/golden_gate.jpg" alt="le golden gate bridge"class="img-golden">
-                      <blockquote>Elle tourne!</blockquote>
-                      <img src="img/golden_gate.jpg" alt="le golden gate bridge"class="img-golden rotation-360">
-                  </section>
-            </main>
+         <main>
+             <section class="tableau">
+                 <h2>Un tableau - <i class="fa fa-table"></i></h2>
+                 <table>
+                     <!-- la légende su tableau  -->
+                     <caption><i class="fas fa-plane"></i>Vols->Paris Rome </caption>
+                     <!-- en-tête du tableau, les en-têtes de colonnes -->
+                    <thead>
+                        <!-- tr rable row les rangées du tableau  -->
+                        <tr>
+                         <!-- td table data, les données du tableau les cellules , le nmbre de cellules donne le nmbr de colonnes du tableau-->
+                            <td>Jours</td>
+                            <td>Lundi</td>
+                            <td>Vendredi</td>
+                            <td>Dimanche</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- tr*4>td*4 -->
+                        <tr>
+                            <!-- rowspan fait fusionner la cellule de cette rangée avec celle du dessous -->
+                            <td rowspan="2">Air France</td>
+                            <td>Départ 10 h - Arrivée 11h55 </td>
+                            <td>Départ 15h - Arrivée 16h55 </td>
+                            <td>Départ 17h - Arrivée 18h55 </td>
+                        </tr>
+                        <tr>
+                          <!-- j'enlève le premier td car ce td fusionne avec le td du dessus  -->
+                            <td>180€</td>
+                            <td>250€</td>
+                            <td>200€</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Ali Italia</td>
+                            <td>Départ 7 h - Arrivée 8h55 </td>
+                            <td>Départ 14h - Arrivée 15h55 </td>
+                            <td>Départ 17h - Arrivée 18h55 </td>
+                        </tr>
+                        <tr>
+                            
+                            <td>180€</td>
+                            <td>250€</td>
+                            <td>140€</td>
+                        </tr>
+                    </tbody>
+                 </table>
+            </section>
+         </main>
             <!-- fin main-->
     
             <!--pied de page-->
             <footer>
-                <p>&copy; L'agence Suresnes 2021 &Fscr; &hearts;  &Cfr;</p>
+            <p>&copy; L'agence Suresnes 2021 &Fscr; &hearts;  &Cfr;</p>
             </footer>
             <!--fin de footer-->
   					
