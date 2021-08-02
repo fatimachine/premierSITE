@@ -393,14 +393,17 @@ img[src="img/toureiffel.jpg"] { /* on ne cible que cette image on la trouve par 
      display: inline; /* les éléments li sont block par défaut et on change leur nature en élément inline  */
      margin: 15px;
  }
+
  li .far {
      font-size: 90%;
      color: #2d5c7f;
  }
+
 li .far:hover {
     font-size: 150%;
     color: orangered;
 }
+
 ol.fruit-2 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -411,6 +414,7 @@ ol.fruit-2 {
     padding-left: 40px;
  
 }
+
 .imbriquee {
     cursor: pointer;
 }
@@ -456,4 +460,81 @@ ol.fruit-2 {
     text-shadow: 1px 5px 10px grey;
     transition-duration: 0.5s;
     
+}
+
+/* la nav dans l'id menu  */
+
+#menu nav {
+    background: transparent;
+    border: none;
+}
+
+#menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+#menu ul  li {
+    display: inline-block;
+
+}
+
+#menu nav a {
+    padding: 10px;
+    background: #ddd;
+
+    color: grey;
+    text-decoration: none;
+
+    transition: 1s ease-in;
+}
+
+#menu nav a:hover {
+    background: #069;
+    color: #fff;
+}
+
+/* le menu déroulant  */
+/* la hauteur de la section qui contient le menu  */
+#menu-deroulant {
+    height: 650px;
+}
+/* on enlève les styles que l'élément nav hérite de la nav du site  */
+#menu-deroulant nav {
+    width: 90%;
+    margin: 0 auto;
+
+    background: transparent; 
+    border: none;
+}
+/* on fait flotter à gauche les li de la ul principale  */
+#menu-deroulant nav ul li {
+    float: left;
+    list-style: none;
+    width: 20%;
+}
+ /* les deux ul enfant la ul principale sont display non on les masque  */
+#menu-deroulant ul ul {
+    display: none;
+}
+/* ces deux ul ont une classe niveau-2 et sur le hover des li qui contiennent ces ul on display block,on les fait reapparaître */
+#menu-deroulant nav ul.niveau-1 li.sous-menu:hover ul.niveau-2 {
+    display: block;
+}
+
+#menu-deroulant nav ul li ul li {
+    border-top: 1px solid #333;
+    width: 100%;
+}
+#menu-deroulant nav li {
+    background: #ccc;
+}
+
+#menu-deroulant nav li a {
+    padding: 4px 0 4px;
+    display: block;
+}
+
+#menu-deroulant ul {
+    text-align: center;
 }

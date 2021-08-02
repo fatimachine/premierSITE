@@ -60,7 +60,7 @@
 				<a href="zoning.html" title="HTML 5 CSS 3 -Zoning">Zoning</a>
 				<a href="tableau.html" title="HTML 5 CSS 3 -Tableau">Tableau</a>
 				<a href="liste.html" title="HTML 5 CSS 3- Liste">Liste</a>
-					<a href="lien.html" title="HTML 5 CSS 3 -Lien"class="active">Lien</a>
+					<a href="lien.html" title="HTML 5 CSS 3 -Lien " class="active">Lien</a>
 					<a href="formulaire.html" title="HTML 5 CSS 3 -Formulaire">Formulaire</a>
 					<a href="multimedia.html" title="HTML 5 CSS 3 -Multimédia">Multimédia</a>
 					<a href="animation.html" title="HTML 5 CSS 3 -Animation">Animation</a>
@@ -96,6 +96,7 @@
 		</section>
 
 		<section id="menu">
+			<h2>Une nav simple</h2>
 				        <nav>
 					          <!-- ul>li*4>a  -->
 					          <ul>
@@ -109,39 +110,45 @@
 		</section>
 
 		<section id="menu-deroulant">
-						<ul>
-                        <!-- ul ne peut pas être l'enfant de ul  -->
-						<li>	<a href="#" title="Accueil">Accueil</a></li>
+			<h2>Un menu déroulant </h2>
 
-						<li>
-								<a href="#" title="Formations">Formations</a>
-						<ul>
-										<li><a href="#" title="Etudiants">Etudiants</a></li>
-										<li><a href="#" title="Emploi du temps">Emploi du temps</a></li>
-										<li><a href="#" title="Recherche d'emploi">Recherche d'emploi</a></li>
-										<li><a href="#" title="Documents">Documents</a></li>
-									</ul>
-								</li>
+			<nav> 
+					<ul class="niveau-1">
+					<li><a href="#" title="Accueil">Accueil</a></li>
+					<li class="sous-menu">
 
-								<li><a href="#" title="Informations">Informations</a></li>
-								<li>
-								<a href="#" title="Cours">Cours</a>
-									<ul>
-										<li><a href="#" title="Internet">Internet</a></li>
-										<li><a href="#" title="HTML/CSS">HTML/CSS</a></li>
-										<li><a href="#" title="CMS">CMS</a></li>
-										<li><a href="#" title="Stats">Stats</a></li>
-										<li><a href="#" title="Réseaux sociaux">Réseaux sociaux</a></li>
-										<li><a href="#" title="Référencement">Référencement</a></li>
-										<li><a href="#" title="Marketing">Marketing</a></li>
-										<li><a href="#" title="Cahier des charges">Cahier des charges</a></li>
-										<li><a href="#" title="Photoshop">Photoshop</a></li>
-									</ul>
-								</li>
-								<li><a href="#" title="Mon CV">Mon CV</a></li>
+						<a href="#" title="Formations">Formations</a>
+						<ul class="niveau-2">
+								<li><a href="#" title="Etudiants">Etudiants</a></li>
+								<li><a href="#" title="Emploi du temps">Emploi du temps</a></li>
+								<li><a href="#" title="Recherche d'emploi">Recherche d'emploi</a></li>
+								<li><a href="#" title="Documents">Documents</a></li>
 							</ul>
-			
+						
+						</li>
+						<li><a href="#" title="Informations">Informations</a></li>
+						<li class="sous-menu">
+
+							<a href="#" title="Cours">Cours</a>
+							<ul class="niveau-2">
+								<li><a href="#" title="Internet">Internet</a></li>
+								<li><a href="#" title="HTML/CSS">HTML/CSS</a></li>
+								<li><a href="#" title="CMS">CMS</a></li>
+								<li><a href="#" title="Stats">Stats</a></li>
+								<li><a href="#" title="Réseaux sociaux">Réseaux sociaux</a></li>
+								<li><a href="#" title="Référencement">Référencement</a></li>
+								<li><a href="#" title="Marketing">Marketing</a></li>
+								<li><a href="#" title="Cahier des charges">Cahier des charges</a></li>
+								<li><a href="#" title="Photoshop">Photoshop</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="#" title="Mon CV">Mon CV</a></li>
+					</ul>
+			 </nav>
+					
 		</section>
+
 	</main>
 		<!-- fin main-->
 	<!--pied de page-->
