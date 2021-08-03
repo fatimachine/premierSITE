@@ -538,3 +538,22 @@ ol.fruit-2 {
 #menu-deroulant ul {
     text-align: center;
 }
+/* page de formulaire */
+form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0 20px 100px;
+
+    background:#80bceb;
+    border-radius: 20px;
+}
+
+
+text area {
+    resize: none;
+}
+
+
+label {
+    margin: 20px 10px;
+}

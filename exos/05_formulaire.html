@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un formulaire</title>
+    
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lemonada&family=Oswald&family=Parisienne&display=swap" rel="stylesheet"> 
+        
+        
+        <!-- <link rel="stylesheet" href="../css/style.css"> -->
+        
+              <!-- nous chargons en CDN (content delivery network) la typo font awesome,la version gratuite, qui comporte 1600 icônes -->
+             <!-- Font Awesome Typos -->
+             <script src="https://kit.fontawesome.com/30d9cb2bf3.js" crossorigin="anonymous"></script>
+             <style>
+                 body {
+                     background-color: lightgray;
+                 }
+                 form {
+                     background-color:mistyrose;
+                 }
+                text area {
+                 resize: none;
+                }
+                .wrapper {
+                    width:900px;
+                    margin: 0 auto;
+                    background-color: #fff;
+                }
+                fieldset {
+                    margin: 20px;
+                    border-left: 1px solid palevioletred;
+                    border-top: none;
+                    border-right: none;
+                    border-bottom: none;
+
+                  
+                }
+                legend {
+                    font-weight: bold;
+                    padding: 5px;
+                }
+                input {
+                    margin-right: 25px;
+                }
+                h1 {
+                    margin: auto;
+                    padding: 40px;
+                    text-align: center;
+                    text-decoration:underline pink;
+                    text-shadow: 2px 1px 1px #FFCFE0;
+                    color: thistle;
+                }
+               
+             </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Inscrivez-vous au club tricot</h1>
+        <section>
+            <form action="inscription.php" method="POST">
+                <fieldset>
+                    <legend>Identité</legend>
+
+                    <label for="nom">Nom *</label>
+                       <input type="text" name="nom" id="nom" placeholder="nom" required>
+
+                    <label for="prenom">Prénom *</label>
+                       <input type="text" name="prenom" id="prenom" placeholder="prenom" required>
+                </fieldset>
+
+                <fieldset> 
+                    <legend>Votre adresse postale</legend>
+
+                    <label for="adresse">Adresse postale</label>
+                    <input type="text" name="adresse postale" id="adresse postale"  placeholder="adresse postale">
+                      
+                  
+                         <label for="code postal">Code postal</label>
+                         <input type="text" name="code postal" id="code postal"  placeholder="code postal">  
+
+                         <label for="ville">Ville</label>
+                         <input type="text" name="ville" id="ville"  placeholder="ville" >
+
+                 </fieldset>
+                       
+                       
+                 <fieldset>
+
+                        <legend>Votre email</legend>
+                        <label for="adresse email">Adresse email*</label>
+                        <input type="text" name="email" placeholder="email" required>
+ 
+                 </fieldset>
+                      
+
+                    <fieldset>
+                            <legend>Sexe</legend>
+
+                                    <!-- le name pour les boutons radio doit être identique afin de pouvoir être sélectionné une seule fois -->
+                            <label for="homme">Homme</label>
+                            <input type="radio" id="homme" name="sexe" value="homme">
+                             <label for="femme">Femme</label>
+                             <input type="radio" id="femme" name="sexe" value="femme" checked>
+                              
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Avez-vous du matériel?</legend>
+                        <label for="aiguilles">j'ai des aiguilles</label>
+                        <input type="checkbox" name="aiguilles" id="aiguilles" value="aiguilles">
+                        <label for="laine">j'ai de la laine</label>
+                        <input type="checkbox" name=" laine" id="laine" value="laine">
+                        
+
+                    </fieldset>
+
+                    <fieldset>
+
+                        <legend>Tricotez-vous?</legend>
+                        <label for="niveau-select">Votre usage du tricot</label>
+                        
+
+                     <select name="votre niveau du tricot" id="niveau-select">
+                        <option value="">--choix de votre niveau en tricot--</option>
+                        <option value="débutant">Débutant</option>
+                        <option value="intermédiaire">Intermédiaire</option>
+                         <option value="confirmé">Confirmé</option>
+                     <option value="expert">Expert</option>
+                    
+                    </select>
+                        
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Votre commentaire</legend>
+                        <label for="votre commentaire">Votre message</label>
+                        <textarea name="commentaire" id="commentaire" cols="50" rows="8" placeholder="Dites nous en un peu plus si vous le souhaitez..."></textarea>
+        
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Inscrivez-vous en envoyant le formulaire</legend>
+                        <input type="submit" name="inscription" value="Inscrivez-vous">
+                        <input type="reset" name="effacer" value="Effacer">
+                        <small>*obligatoire</small>
+                        
+                    </fieldset>
+                   
+   
+    </form>
+        </section>
+    </div>
+</body>
+</html>
