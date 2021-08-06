@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 zoning</title>
+    <style>
+      
+
+        body {
+            width: 1200px;
+            margin: auto;
+            background-color: plum;
+        }
+        main {
+           width: 90%;
+           margin: auto;
+            /* background-color: rgb(210, 245, 192); */
+        }
+        header {
+            float: left;
+            width: 100%;
+            height: 150px;
+            background-color:rgba(210, 245, 192, 0.466)
+        }
+        
+        aside {
+            float: left;
+            width:30%;
+            min-height: 400px;
+            padding-left: 10px;
+
+            border-right:  5px solid greenyellow;
+            background-color: rgb(210, 245, 192);
+            box-sizing:border-box
+        }
+      
+
+        h1 {
+            margin: 0;
+        }
+        footer {
+            min-height: 150px;
+            background-color: rosybrown;
+            color: #fff;
+        }
+        .clear{
+            clear: both;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>zone de l'en-tête <code>&lt;header</code></h1>
+            <p>100% de large</p>
+          
+        </header>
+        <aside>
+              <h3>Zone à gauche<code>&lt;aside</code></h3>
+              <p>30% de large</p>
+        </aside>
+        <section>
+                <h2>Zone de droite ou zone principale<code>&lt;section</code></h2>
+                <p>70% de large</p>
+                <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aspernatur eum ipsum! Minima debitis repellat ab, officiis molestiae voluptate officia excepturi cupiditate cumque, mollitia, quisquam corporis accusantium quam quas harum.</span><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, consequuntur tenetur ullam aliquam beatae neque libero quidem molestias aut quibusdam sed eaque possimus rerum consectetur reiciendis accusantium cumque inventore incidunt?</p>
+                
+        </section>
+        <div class="clear"></div>
+        <footer>
+            <p>pied de page<code>&lt;pied de page</code></p>
+
+        </footer>
+    </main>
+</body>
+</html>

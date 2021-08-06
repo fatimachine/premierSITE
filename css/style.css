@@ -613,3 +613,110 @@ iframe[allowfullscreen] {
     font-size: 120%;
     text-align: center;
 }
+
+/* page des zonings  */
+
+#zoning-1 {
+    width: 800px;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
+
+#zoning-1 header {
+    height: 70px;
+    background: #f7f39a;
+}
+
+#zoning-1 aside {
+    height:525px;
+    width: 20%;
+    float: left;
+    background: #a3de83;
+}
+
+#zoning-1 section {
+    height: 525px;
+    width: 80%;
+    float: left;
+    margin:0;
+    padding:0;
+   
+
+    background: #4dc40d;
+}
+
+/* ZONING 2 */
+#zoning-2 {
+
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+
+#zoning-2 main {
+    width: 1200px;
+    margin: auto;
+     background-color: #ffa500;
+     color: #fff;
+}
+
+#zoning-2 header {
+    float: left;
+    width: 1200px;
+    height: 150px;
+    text-align: center;
+    background-color: #ff69b4;
+    color: #fff;
+}
+
+#zoning-2 aside {
+    float: left;
+    width: 200px;
+    min-height: 600px;
+   
+
+  
+    background-color: #808000;
+    color: #fff;
+    box-sizing:border-box;
+}
+
+
+#zoning-2 section {
+    float: left;
+    width:800px;
+    min-height: 400px;
+    background-color:#ffa500;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.clear {
+    clear: both;
+}
+#zoning-2 h1 {
+    font-size: 1.8em;
+
+}
+
+#zoning-2 p {
+    font-size: 1.2em;
+}
+#zoning-2 small {
+    font-size: 0.7em;
+}
+
+
+#zoning-2 footer {
+    /* width: 1200px;
+    height: 150px; */
+    padding: 10px;
+
+     background-color:#808080 ;
+     color: #fff;
+
+}
+

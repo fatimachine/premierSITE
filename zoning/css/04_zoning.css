@@ -1,0 +1,43 @@
+body {
+    background-color:#808000;
+    text-align: center;
+}
+
+main {
+    width: 1200px;
+    margin: auto;
+     background-color: #54f5cb;
+}
+
+header {
+    float: left;
+    width: 1200px;
+    height: 150px;
+    text-align: center;
+    background-color: pink;
+}
+
+aside {
+    float: left;
+    width: 200px;
+    min-height: 600px;
+   
+
+  
+    background-color: #7ff798;
+    box-sizing:border-box;
+}
+
+
+section {
+    float: left;
+    width:800px;
+    min-height: 600px;
+    background-color:#54f5cb;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
