@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+    color: aliceblue;
+}
+
+.c1, .c2 {
+    /* height: 200px;
+    width: 200px;
+    margin: 5px;
+    float: left;
+    margin: 5px;
+    */
+
+    height: 10em;
+    width: 10em;
+    float: left;
+    margin: 5px;
+    border: 0.2em solid black;
+
+    border-radius: 15%;
+    
+    text-align: center;
+}
+
+.vert {
+    background-color: green;
+}
+
+.bleu {
+    background-color: blue;
+}
+
+.clear {
+    clear: both;
+}

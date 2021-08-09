@@ -720,3 +720,40 @@ iframe[allowfullscreen] {
 
 }
 
+/* pour le zoning 3 */
+
+#zoning-3 {
+    width: 800px;
+    margin: auto;
+}
+
+#zoning-3 section {
+    width: 50%;
+    min-height: 400px;
+    float: left;
+}
+
+#zoning-3 .bleu {
+   background-color:blue;
+}
+
+#zoning-3 .rose {
+   background-color:pink;
+}
+
+#zoning-3 footer {
+   height: 150px;
+   background-color: rgb(235, 28, 62);
+}
+
+#zoning-3 footer  {
+   margin: 0;
+}
+
+#zoning-3 div {
+   height: 15px;
+   margin: 0;
+   padding: 0;
+   background-color: rgb(136, 72, 17);
+}
+

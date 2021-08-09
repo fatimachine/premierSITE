@@ -1,0 +1,39 @@
+ /* le cubitus 1 - pisola Suresnes */
+
+body {
+    background-color: yellowgreen;
+    color: #fff;
+}
+
+.rose {
+    background-color: pink;
+}
+
+.corail {
+    background-color: lightcoral;
+}
+
+.c1, .c2 {
+    /* height: 200px;
+    width: 200px;
+    margin: 5px;
+    float: left;
+
+    border-radius: 10% 5% 40% 0%;
+    border: 1px solid white;
+
+    text-align: center; */
+
+    height: 10em;
+    width: 10em;
+    float: left;
+    margin: 0.2em;
+
+    border: 0.2em solid white;
+    text-align: center;
+    border-radius: 10% 5% 40% 0%;
+}
+
+.clear {
+    clear: both;
+}

@@ -1,0 +1,62 @@
+body{
+    background-image:url(../../img/concrete-texture.png);
+}
+
+main {
+    width: 1200px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+section {
+    width: 600px;
+
+}
+
+#zoning-3 {
+    width: 800px;
+    margin: auto;
+    color: rgb(49, 49, 49);
+    /* font-weight: 1px bold; */
+    text-align: center;
+}
+
+#zoning-3 .section-gauche {
+    width: 50%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    background-color: #afeeee;
+    float: left;
+}
+
+#zoning-3 .section-droite {
+    width: 50%;
+    height: 400px;
+    background-color: #ffc0cb;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#zoning-3 .section-etroite {
+    width: 800px;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+    background-color:#ffd4d5;
+    float: left;
+}
+
+#zoning-3 footer {
+    width: 800px;
+    height: 80px;
+    margin: auto;
+    background-color: #90ee90;
+    color: rgb(49, 49, 49);
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
