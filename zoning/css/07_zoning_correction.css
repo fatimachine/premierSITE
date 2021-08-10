@@ -1,3 +1,5 @@
+/* css zoning correction */
+
 body {
    
     background-color:#eee8aa ;
@@ -44,8 +46,8 @@ body {
 }
 
 .d {
-    background-color: #1217f2;
-} 
+    background-color:#1217f2;
+}
 
 footer {
     width: 800px;

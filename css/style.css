@@ -824,4 +824,76 @@ iframe[allowfullscreen] {
     float: left;
    
 }
+#zoning-5 body {
+
+    background-color:#f0fff0;
+    font-size: 1.1em;
+    text-align: center;
+    color: #fff;
+}
+
+#zoning-5 main {
+    width: 1200px;
+    margin: auto;
+     background-color: #ffa500;
+     color: #fff;
+}
+
+#zoning-5 header {
+    float: left;
+    width: 1200px;
+    height: 150px;
+    text-align: center;
+    background-color: #ff69b4;
+    color: #fff;
+}
+
+#zoning-5 aside {
+    float: left;
+    width: 200px;
+    min-height: 600px;
+   
+
+  
+    background-color: #808000;
+    color: #fff;
+    box-sizing:border-box;
+}
+
+
+#zoning-5 section {
+    float: left;
+    width:800px;
+    min-height: 400px;
+    background-color:#ffa500;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+#zoning-5 h1 {
+    font-size: 1.8em;
+
+}
+
+#zoning-5 p {
+    font-size: 1.2em;
+}
+#zoning-5 small {
+    font-size: 0.7em;
+}
+
+
+#zoning-5 footer {
+    /* width: 1200px;
+    height: 150px; */
+    padding: 10px;
+
+     background-color:#808080 ;
+     color: #fff;
+
+}
+
+
 
