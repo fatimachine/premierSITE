@@ -895,5 +895,97 @@ iframe[allowfullscreen] {
 
 }
 
+/* page position  */
+
+.centre {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #6acafc;
+
+}
+
+.absolute {
+    width: 100px;
+    height: 100px;
+
+    top: 25%;
+    left: 10%;
+    position: absolute;
+    background-color: yellow;
+}
+
+.bordure-2 {
+    border: 1px solid green;
+}
+
+.relative {
+    width: 400px;
+    height: 400px;
+    background-color: #2980b9;
+    position: relative;
+    left: 100px;
+    bottom: 10px;
+}
+
+/* cette div est en position absolute dans un élément relatif et sa position est absolute par rapport à cette élément l'origine est élément parent  */
+.relative div {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.trente {
+    font-size: 22px;
+    width: 30%;
+    background: lightpink;
+    padding: 20px;
+    color: #fff;
+
+}
+
+.cinquante {
+    font-size: 22px;
+    width: 50%;
+    background: pink;
+    padding: 20px;
+    color: #fff;
+}
+
+.cent {
+    font-size: 22px;
+    width: 100%;
+    background: palevioletred;
+    padding: 20px;
+    color: #fff;
+}
+
+.float {
+    float: left;
+    height: 170px;
+    width: 170px;
+    margin: 10px;
+
+    border: 2px solid linen;
+    background: darkred;
+    text-align: center;
+    font-size: 25px;
+}
+
+.dernier-carre {
+    height: 170px;
+    width: 170px;
+    margin: 10px;
+
+    border: 2px solid linen;
+    background: darkred;
+    text-align: center;
+    font-size: 25px;
+}
+
+
 
 
