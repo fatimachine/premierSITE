@@ -8,21 +8,114 @@
     <title>Display</title>
 
  <style>
+body {
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+}
 
+main {
+    width:80%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+}
+
+section {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid goldenrod;
+}
+a {
+    background-color: salmon;
+    color: white;
+}
+a:hover {
+    background-color: orange;
+}
+
+p {
+width: 80%;
+margin: auto;
+}
+
+h2 {
+    text-decoration: underline;
+}
+/* la classe display none  */
+.display-none {
+    display: none;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.display-block {
+    display: block;
+}
+a.display-block {
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.display-inline-block {
+    display: inline-block;
+}
+a.display-inline-block {
+    height: 100px;
+    width: 100px;
+}
+
+.gold {
+    background-color: gold;
+}
+.rose {
+    background-color: pink;
+}
  </style>
 
 
 </head>
 <body>
     <main>
-        <h1>Display</h1>
+        <h1> la propriété Display</h1>
         <section class="rose">
-            <h2>Comportement normal de chez normal</h2>
+            <h2>Display,Comportement normal de chez normal !</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At nisi, quia similique nobis inventore aliquam ad cum molestias mollitia temporibus, adipisci asperiores accusantium eaque quas porro veritatis. Hic, voluptatum quia!</p>
-            <p>Et la je vais sur le site du journal<a href="">Le monde</a>qui est un excellent journal du soir</p>
+            <p>Et la je vais sur le site du journal<a href="https://www.lemonde.fr/">Le monde</a>qui est un excellent journal du soir</p>
+            <p>je rajoute un p</p>
+        </section>
+        <!-- section 2; l'élément n'est pas affiché -->
+        <section>
+            <h2>2/Display,none</h2>
+            <p class="display-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ducimus consectetur pariatur ea similique vero doloribus fugit repellendus perspiciatis eos quo, nesciunt, quis sequi natus, saepe quasi. Nulla, nam asperiores!</p>
+            <p class="rose">Coucou les amis, un paragraphe!! Je rajoute un lien vers <a href="https://fr.wikipedia.org/wiki/Albanie" class="">le site de mon choix</a>et après ce lien je rajoute encore du texte</p>
+        </section>
+
+        <!-- section 3; affiche un élément comme un élément en ligne,aucune propriété de largeur ni de hauteur n'auront d'effets -->
+        <section>
+            <h2>3/Display inline</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur vitae nesciunt eum ex doloribus, quas, sapiente enim delectus accusamus, autem unde tempora sunt sed. Vero nemo ea cumque consequatur dicta?</p>
+            <p class="display-inline gold">Coucou les amis, un paragraphe!! je rajoite un lien vers <a href="https://fr.wikipedia.org/wiki/Albanie" class="">Le site de mon choix</a>et après ...</p>
+            <p class="rose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tempore nisi, tenetur libero ipsam iste voluptatibus cupiditate error quaerat natus quia maxime dignissimos sit doloremque fugit esse blanditiis nihil excepturi.</p>
         </section>
         
-      
+        <!-- section 4;affiche un élément comme un block, il commence sur une nouvelle ligne et prend toute la largeur -->
+        <section>
+            <h2>4/Display block</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur vitae nesciunt eum ex doloribus, quas, sapiente enim delectus accusamus, autem unde tempora sunt sed. <strong class="display-block">Des mots en gras!</strong></p>
+
+            <p class="">Coucou les amis, un paragraphe!! je rajoite un lien vers <a href="https://fr.wikipedia.org/wiki/Albanie" class="display-block">Le site de mon choix</a>et après ce lien je rajoute encore du texte</p>
+        </section>
+
+        <!-- section 5; un élément  est formaté comme un élément inline mais on peut lui donner des valeurs de hauteur et/ou de largeur-->
+        <section>
+            <h2>5/Display inline block</h2>
+            <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit.Consequatur vitae nesciunt eum ex doloribus, quas, sapiente enim delectus accusamus, autem unde tempora sunt sed. Vero nemo ea cumque consequatur dicta?</p>
+
+            <p class="">Coucou les amis, un paragraphe!! je rajoite un lien vers <a href="https://fr.wikipedia.org/wiki/Albanie" class="display-inline-block">Le site de mon choix</a>et après ce lien je rajoute encore du texte</p>
+        </section>
 
     </main>
 </body>
