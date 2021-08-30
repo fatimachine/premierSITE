@@ -334,7 +334,7 @@ img[src="img/toureiffel.jpg"] { /* on ne cible que cette image on la trouve par 
     margin: 20px;
     border: 5px solid #fff;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
-    transition: 1s; /* La durée de l'animation qui ffonctionne avec le :hover des deux autres classes */
+    transition: 1s; /* La durée de l'animation qui fonctionne avec le :hover des deux autres classes */
 }
 
 .img-golden:hover {
