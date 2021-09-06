@@ -894,6 +894,190 @@ iframe[allowfullscreen] {
      color: #fff;
 
 }
+#zoning-7 {
+    width: 800px;
+    margin: 0 auto;
+    background-color: orangered;
+}
+#zoning-7 header {
+    height: 80px;
+    background-color: #40a497;
+    
+}
+
+#zoning-7 nav {
+    height: 30px;
+    background-color: #9a40a4;
+}
+#zoning-7 section {
+    height: 600px;
+    margin: 10px;
+    background-color: pink
+}
+
+.a, .b, .c, .d {
+    width:50%;
+    height: 300px;
+    float: left;
+}
+
+.a {
+    background-color: #32a7a0;
+}
+
+.b {
+    background-color:#d69f1b;
+}
+.c {
+    background-color: #b1b2d8;
+}
+
+.d {
+    background-color:#1217f2;
+}
+
+#zoning-7 footer {
+    width: 800px;
+    height: 40px;
+    background-color: #40a497;
+
+}
+
+.clear {
+    clear: both;
+}
+
+body{
+	background-color: #d3d3d3;
+}
+
+.clear {
+	clear: both;
+}
+
+#zoning-8 {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #fff;
+
+}
+/* en-tête avec les trois parties hautes*/
+#zoning-8 header {
+	height: 200px;
+	background-color: red;
+}
+
+#zoning-8 .haut-1{
+	width: 25%;
+	height: 100%;
+	float: left;
+	background-color: #ff6347;
+}
+
+#zoning-8 .haut-2{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: #008080;
+}
+
+#zoning-8 .haut-3{
+	width: 25%;
+	height: 100%;
+	float: left;
+	background-color: #40e0d0;
+}
+/* zone latérale  */
+#zoning-8 aside {
+	float: left;
+	width: 25%;
+	height: 500px;
+	background-color: #d8bfd8;
+}
+
+/* navigation  */
+#zoning-8 nav {
+	height: 100px;
+	background-color: #add8e6;
+}
+
+/* sone latérale  */
+#zoning-8 aside {
+	float: left;
+	width: 25%;
+	height: 500px;
+	background-color: #d8bfd8;
+}
+
+#zoning-8 section {
+    margin: 0;
+    padding: 0;
+	float: left;
+	width: 75%
+    
+}
+
+/* zone principale  */
+#zoning-8 .zone-a {
+	float: left;
+	width: 50%;
+	height: 200px;
+	background-color: #f5deb3;
+}
+
+#zoning-8 .zone-b {
+	float: left;
+	width: 50%;
+	height: 200px;
+	background-color: #f5f5f5;
+}
+
+#zoning-8 .diaporama {
+	height: 200px;
+	background-color: #a3de83;
+}
+
+#zoning-8 .zone-c {
+	float: left;
+	width: 25%;
+	height: 100px;
+	background-color: #32ff32;
+}
+
+#zoning-8 .zone-d {
+	float: left;
+	width: 25%;
+	height: 100px;
+	background-color: #e032ff;
+}
+
+#zoning-8 .zone-e {
+	float: left;
+	width: 25%;
+	height: 100px;
+	background-color: #ffa632;
+}
+
+#zoning-8 .zone-f {
+	float: left;
+	width: 25%;
+	height: 100px;
+	background-color: #ff3265;
+}
+
+#zoning-8 footer {
+    margin: 0;
+	height: 100px;
+	background-color: #0b5269;
+}
+
+border {
+    border-bottom: 0;
+}
+p {
+	margin: 0;
+}
 
 /* page position  */
 
@@ -984,6 +1168,105 @@ iframe[allowfullscreen] {
     background: darkred;
     text-align: center;
     font-size: 25px;
+}
+
+
+/* page animation */
+.info-bulle {
+    height: 250px;
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+    background:#444;
+}
+
+.info-bulle p {
+text-align: center;
+padding-top: 30px;
+}
+
+.info-bulle a {
+padding: 5px 15px;
+border-radius: 10px;
+color: lightgrey;
+text-decoration: none;
+text-shadow:0 -2px 0 black;
+}
+
+.info-bulle a:hover {
+background: rgba(0,0,0,0.4);
+color: white;
+text-shadow: 0 1px 2px black;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4)
+}
+
+.info-bulle a span {
+    position: absolute;
+    padding: 15px;
+    margin-top: 23px;
+    margin-left: -35px;
+/* le contenu de span disparaît grâce à cette ligne  */
+/* opacity:0; */
+color: #09c;
+transition: .25s;
+transform: scale(0) rotateZ(-12deg);
+border-radius: 13px;
+box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.info-bulle a:hover span {
+opacity: 1;
+transform: scale(1) rotate(0);
+}
+
+.info-bulle a span:before {
+content: ' ';
+position: absolute;
+top: -6px;
+left: -10px;
+
+border-bottom: 6px solid rgba(255, 255,255,0.9);
+border-left: 6px solid transparent;
+border-right: 6px solid transparent;
+}
+
+/* effets au survol  */
+.img-effects {
+    width: 302px;
+    height: 320px;
+    margin: 70px auto;
+
+}
+.img-effects li {
+list-style: none;
+float: left;
+width: 141px;
+height: 150px;
+margin: 5px;
+}
+.img-effects li:nth-child(3){
+clear:both;
+}
+
+.img-effects img {
+    position: absolute;
+    z-index:1;
+    height: 150px;
+    box-shadow: 0 0 3px black;
+     /* la transition fonctionne avec un transform sur le hover du li  */
+    transition: .5s cubic-bezier(0,3,.4,1);
+}
+
+.img-effects li:hover img{
+    /* l'image sur le hover passer au premier plan car le z index est à 2 */
+    z-index: 2;
+/* transform peut fonctionner sans transition  */
+    transform: scale(1.5);
+    box-shadow: 0 0 10px palevioletred;
+}
+
+.img-effects:hover li:not(:hover) img {
+    filter:grayscale(1) blur(2px);
 }
 
 
